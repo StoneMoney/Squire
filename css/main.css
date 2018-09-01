@@ -1,0 +1,51 @@
+/*
+** file: css/main.css
+** description: custom styling for "html/main.html" file
+*/
+body {
+  width:400px;
+  height:300px;
+  overflow-y: scroll;
+}
+.version {
+  display: inline-block;
+}
+.head {
+  display: inline-block;
+  font-size: 22px;
+}
+.donationtotal {
+  font-size: 16px;
+}
+.deleteWarn {
+  color: #db4a2e;
+}
+table {
+	border: 1px solid;
+	width:98%;
+}
+td {
+	overflow-x: auto;
+}
+.timestamp {
+	width:20%;
+}
+.name {
+	width:79%;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
